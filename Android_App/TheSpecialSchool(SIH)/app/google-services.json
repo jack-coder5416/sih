@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "714378399466",
+    "project_id": "the-special-school",
+    "storage_bucket": "the-special-school.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714378399466:android:e4affe371818c198855193",
+        "android_client_info": {
+          "package_name": "com.theErrors.theSpecialSchool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "714378399466-4n4btcia1gbadvj6v1vr5iltefbpp7r9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-j76RF8ljxnSwGR7ACzn_jGNA2uymH1k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "714378399466-4n4btcia1gbadvj6v1vr5iltefbpp7r9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

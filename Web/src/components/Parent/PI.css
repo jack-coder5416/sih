@@ -1,0 +1,15 @@
+.prentimg {
+    background-image: url("./try6.jpeg"); 
+    background-repeat: no-repeat;
+    width:100% ;
+    position:absolute;
+    background-attachment: fixed;
+    
+}
+.footer{
+    margin-top:5%;
+    position: relative;
+    height: 150px;
+    background:cover ;
+    background-color: rgb(47, 46, 46);
+}

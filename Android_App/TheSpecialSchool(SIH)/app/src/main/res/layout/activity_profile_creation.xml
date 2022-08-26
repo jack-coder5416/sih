@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".ProfileCreationActivity">
+
+    <TextView
+        android:id="@+id/tvCreateProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/glacial_bold"
+        android:text="Create Profile"
+        android:textColor="@color/black"
+        android:textSize="35sp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/civProfilePicture"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_below="@id/tvCreateProfile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/ic_user" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/civProfilePicture"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="30dp"
+        android:background="#d3d3d3"
+        android:drawableLeft="@drawable/ic_user_small"
+        android:drawablePadding="20dp"
+        android:hint="Enter Name"
+        android:padding="10dp" />
+
+    <Spinner
+        android:id="@+id/spClass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/etName"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown" />
+
+    <Spinner
+        android:id="@+id/spLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/spClass"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown" />
+
+    <Spinner
+        android:id="@+id/spDisability"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/spLanguage"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/btn_round"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+</RelativeLayout>
